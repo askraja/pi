@@ -1,4 +1,4 @@
-IN=/opt/vc/bin/vcgencmd measure_temp
+IN=`/opt/vc/bin/vcgencmd measure_temp`
 #IN="temp=53.0'C"
 echo "$IN"
 
