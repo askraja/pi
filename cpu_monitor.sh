@@ -7,3 +7,4 @@ IN3=${IN2%\'C}
 TEMP_IN_F=`echo "$IN3 * 1.8 + 32" | bc`
 ##Print it out
 echo "Processor Temperature:" $TEMP_IN_F"'F," $IN3"'C"
+#DONE
